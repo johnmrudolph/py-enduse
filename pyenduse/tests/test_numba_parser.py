@@ -1,6 +1,4 @@
-import sys
-sys.path.append('/mnt/c/Users/johnr/Documents/py-enduse/pyenduse')
-from pyenduse import numba_parser as nbp
+from pyenduse.pyenduse import numba_parser as nbp
 
 faf = {
     1: (0.75, 5000, 15), 
